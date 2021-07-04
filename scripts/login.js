@@ -3,10 +3,10 @@ function check(form) {
     password = new Array("ccn5ta8pp", "jh7llpsws", "oyouiq0ig");
 
 	if(form.userid.value == username[0] && form.pswrd.value == password[0]||form.userid.value == username[1] && form.pswrd.value == password[1]) {
-		location.replace('beta')/* The Administrator homepage */
+		location.replace('https://mineboom.tk/beta')/* The Administrator homepage */
 	}
 	else if(form.userid.value == username[2] && form.pswrd.value == password[2]) {
-		location.replace('beta')/* The members homepage */
+		location.replace('https://mineboom.tk/beta')/* The members homepage */
 	}oyouiq0ig
 	else if(form.userid.value == username[0]||form.userid.value == username[1]||form.userid.value == username[2]) {
 		alert("Incorrect key Confirmation")
