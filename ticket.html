@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create a support ticket</title>
+    		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+       <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
+	 <script src="https://www.google.com/recaptcha/api.js"></script>
+      </head>
+      <body>
+        <form action="https://formspree.io/f/xbjqkzjy" method="POST">
+          <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+    <label>
+    Your name:
+    <input type="text" name="name">
+  </label>
+		  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+		
+  <button type="submit">Send</button>
+
+        </form>
+      </body>
+    </html>

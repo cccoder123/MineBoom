@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MineBoom</title>
+		<meta charset="utf-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+<a href="/" class="name">MineBoom<span>Dev</span></a>
+					<nav id="nav">
+						<ul>
+							<li><a href="/">Home</a></li>
+							<li>
+								<a href="#">Generate</a>
+								<ul>
+									<li><a href="#generate">Standard</a></li>
+									<li><a href="#generate">Permanent (No password changes)</a></li>
+									<li><a href="#generate">Permanent (Password changes allowed)</a></li>
+									<li>
+
+									</li>
+								</ul>
+							</li>
+                            							<li><a href="#whyus">Why us?</a></li>
+
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>MineBoom</h2>
+							<p>Minecraft accounts.<br />
+							Done properly.</p>
+						</header>
+						<span class="image"><img src="images/Logo.png" alt="" /></span>
+					</div>
+										<a href="#generate" class="goto-next scrolly">Generate</a>
+
+				<div class="info il"><i class="fas fa-sync-alt fa-spin2"></i> Next Refill: <span id="time">11:49:56</span></div>
+<div class="info ir"><i class="fas fa-database"></i> Accounts left: 3513</div>
+</div>
+</div>
+<div class="wave">
+<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+<defs>
+<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+</defs>
+<g class="parallax">
+<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
+<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+</g>
+</svg>
+<div class="white"><i class="fas fa-chevron-down"></i></div>
+</div>
+				</section>
+
+			<!-- One -->
+				
+
+			<!-- Four -->
+				<section id="whyus" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Why choose us?</h2>
+						</header>
+						<div class="box alt">
+							<div class="row gtr-uniform">
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-chart-area"></span>
+									<h3>Restocks</h3>
+									<p>We restock every other days (our standard accounts last that long!)</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-comment"></span>
+									<h3>Amazing support team</h3>
+									<p>Our support team is amazing. Just send us a ticket if you need help.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-flask"></span>
+									<h3>Accounts fuel your minecraft needs.</h3>
+									<p>You can play minecraft without a ban.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-paper-plane"></span>
+									<h3>Quality accounts</h3>
+									<p>Our accounts are amazing.</p>
+								</section>
+									<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-paper"></span>
+									<h3>Free generator</h3>
+									<p>We are ad free.</p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Five -->
+				<section id="generate" class="wrapper style2 special fade">
+					<div class="container">
+						<header>
+							<h2>Generate!</h2>
+							<p>We are in development so the accounts on here are only standard for the time being.</p>
+						</header>
+					<FORM NAME="WordForm">  
+<INPUT TYPE=TEXT NAME="WordBox" id="wordbox"><BR>
+<INPUT TYPE=BUTTON VALUE="Generate account!" onClick="PickRandomWord(document.WordForm);" id="button">
+  <script>
+    var NumberOfWords = 5
+
+var words = new BuildArray(NumberOfWords)
+
+// Use the following variables to 
+// define your random words:
+words[1] = "julien1611xd@gmail.com:Jul1611K"
+words[2] = "cjbutter24@gmail.com:Hawkin11"
+words[3] = "purplerunner2004@gmail.com:Minouchopin2!"
+words[4] = "a40460978@gmail.com:a30277633"
+words[5] = "gjose934@gmail.com:Pumas255!"
+
+
+function BuildArray(size){
+this.length = size
+for (var i = 1; i <= size; i++){
+this[i] = null}
+return this
+}
+
+function PickRandomWord(frm) {
+// Generate a random number between 1 and NumberOfWords
+var rnd = Math.ceil(Math.random() * NumberOfWords)
+
+// Display the word inside the text box
+frm.WordBox.value = words[rnd]
+}
+  </script>
+</FORM>
+					</div>
+	<form action="betalogin">
+    <input type="submit" value="Go to beta" />
+</form>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+                    <h7>Get in touch!</h7>
+                    
+					<ul class="icons">
+		
+						<li><a href="https://github.com/cccoder123" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="ticket" class="icon solid alt fa-envelope"><span class="label">Support</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; MineBoom. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
