@@ -1,6 +1,6 @@
 function check(form) {
-    username = new Array("ccn5ta8pp", "jh7llpsws", "oyouiq0ig");
-    password = new Array("ccn5ta8pp", "jh7llpsws", "oyouiq0ig");
+    username = new Array("ccn5ta8pp");
+    password = new Array("ccn5ta8pp");
 
 	if(form.userid.value == username[0] && form.pswrd.value == password[0]||form.userid.value == username[1] && form.pswrd.value == password[1]) {
 		location.replace('https://mineboom.tk/beta')/* The Administrator homepage */
