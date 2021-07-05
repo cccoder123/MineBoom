@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-    <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Beta</title>
-      		<meta charset="utf-8" />
+<html>
+<head>
+	<title>Beta access</title>
+	      		<meta charset="utf-8" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	<head>
+<script type="text/javascript">
+function matchpass(){
+var firstpassword=document.f1.password.value;
 
-	</head>  
-  <body>
-    <div class="login-card">
+if(firstpassword=="3b5ny10iil"){
+return true;
+}
+else{
+alert("Wrong code!");
+return false;
+}
+}
+</script>
+</head>
+<body>
         <h1>Beta</h1>
-  <form>
-        <script type="text/javascript" src="scripts/login.js"></script>
-        <input type="text" name="userid" placeholder="Key">
-        <input type="password" name="pswrd" placeholder="Confirm key">
-        <input type="button" onclick="check(form)" name="login" class="login login-submit" value="Login">
-      </form>
-      <p></p>
 
-    </div>
-  </body>
-  <footer>
-    <center>
-      <div class="container">
-        <p>__________________________________</p>
-      </div>
-    </center>
-  </footer>
+<form name="f1" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return matchpass()">
+Password:<input type="password" name="password" /><br/>
+<input type="submit" "value>
+</form>
+
+</body>
 </html>
+
+ 
